@@ -1,4 +1,4 @@
-#flappy birds
+#flappy birds alexander
 
 import random # para generar numeros aleatorios
 import sys # Usaremos sys.exit para salir del programa
@@ -73,7 +73,7 @@ def mainGame():
     playerMinVelY = -8
     playerAccY = 1
 
-    playerFlapAccv = -8 # velocidad mientras aletea
+    playerFlapAccv = -10 # velocidad mientras aletea
     playerFlapped = False # Es cierto solo cuando el pájaro está aleteando.
 
 
